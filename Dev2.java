@@ -38,7 +38,7 @@ public class Dev2{
                                         sumright += input[j];
 					if(sumLeft <= sumRight){
 						if( sumLeft == sumRight){
-							System.out.println(i+1 +" " length+1-1);
+							System.out.println(i+1 +" "+ length+1-1);
 						}	
 					break;
 					}
