@@ -35,10 +35,10 @@ public class Dev2{
 				}
 
 				for( int j = length ; j >  i  ; j-- ) {
-                                        sumright += input[j];
+                                        sumRight += input[j];
 					if(sumLeft <= sumRight){
 						if( sumLeft == sumRight){
-							System.out.println(i+1 +" "+ j+1);
+							System.out.println("Result : "+ (i+1) +" "+ (j+1));
 						}	
 					break;
 					}
