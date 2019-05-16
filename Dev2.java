@@ -23,7 +23,7 @@ public class Dev2{
                 }
 		
 		for( int[] input : testCases){
-			int  lenght  = input.length - 1;
+			int  length  = input.length - 1;
 			
 
 			for(int i = 0; i <= length; i++) {
