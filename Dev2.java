@@ -12,11 +12,11 @@ public class Dev2{
 		List<int[]> testCases = new ArrayList<>();
 
 		for(int test=0 ; test < testCount ; test++) {
-                        System.out.println("Enter arrayLength : ");
+//                        System.out.println("Enter arrayLength : ");
                         int arrayLength = sc.nextInt();
                         int input[] = new int[arrayLength];
                         for( int i = 0 ; i< arrayLength ; i++ ) {
-                                System.out.println("Enter input number : "+(i+1));
+  //                              System.out.println("Enter input number : "+(i+1));
                                 input[i] = sc.nextInt();
                         }
                         testCases.add(input);
@@ -38,7 +38,7 @@ public class Dev2{
                                         sumRight += input[j];
 					if(sumLeft <= sumRight){
 						if( sumLeft == sumRight){
-							System.out.println("Result : "+ (i+1) +" "+ (j+1));
+							System.out.println((i+1) +" "+ (j+1));
 						}	
 					break;
 					}
